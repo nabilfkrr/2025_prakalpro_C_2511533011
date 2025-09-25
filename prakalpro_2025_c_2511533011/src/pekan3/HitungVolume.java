@@ -1,5 +1,5 @@
 package pekan3;
-import java.util.Locale;
+import java.util.Scanner;
 import java.util.Scanner;
 public class HitungVolume {
 
@@ -8,7 +8,6 @@ public class HitungVolume {
 		double r;
 		double volume;
 		Scanner keyboard = new Scanner(System.in);
-		 keyboard.useLocale(Locale.US);
 		 System.out.println("Masukkan jari jari bola: ");
 		 r = keyboard.nextDouble();
 		 keyboard.close();
